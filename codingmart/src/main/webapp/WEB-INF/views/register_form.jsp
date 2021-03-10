@@ -13,7 +13,7 @@
 	<form:form action="register" method="post" modelAttribute="in1">
 	<form:label path="name">Name:</form:label> <form:input path="name"/><br>
 	<form:label path="mobile">Mobile:</form:label> <form:input path="mobile"/><br>
-	<form:label path="emial">Email:</form:label> <form:input path="email"/><br>
+	<form:label path="email">Email:</form:label> <form:input path="email"/><br>
 	<form:label path="message">Message:</form:label> <form:input path="message"/><br>
 	<form:button>Register</form:button>
 	</form:form>
