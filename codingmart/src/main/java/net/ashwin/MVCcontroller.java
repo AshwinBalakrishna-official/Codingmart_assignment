@@ -17,4 +17,13 @@ public class MVCcontroller {
 		model.addAttribute("in1",in1); 
 		return "register_form";
 	}
+	@PostMapping("/register")
+	public String submitForm(@ModelAttribute("in1") AssignmentForm in1) {
+	     
+	    System.out.println(in1);
+	     
+	    return "register_success";
+	}
+
+	
 }

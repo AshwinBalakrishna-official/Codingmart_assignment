@@ -1,6 +1,8 @@
 package net.ashwin;
 
 public class AssignmentForm {
+	
+	
 	private String name;
 	private String mobile;
 	private String email;
@@ -37,4 +39,10 @@ public class AssignmentForm {
 	public void setMessage(String message) {
 		this.message = message;
 	}
+	@Override
+	public String toString() {
+		return "AssignmentForm [name=" + name + ", mobile=" + mobile + ", email=" + email + ", message=" + message
+				+ "]";
+	}
+
 }
